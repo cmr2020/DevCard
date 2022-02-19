@@ -116,3 +116,5 @@ E:\ProjectTamrin\DevCard\DevCard_Mvc\bin\Debug\net5.0\runtimes\win-arm64\lib\net
 E:\ProjectTamrin\DevCard\DevCard_Mvc\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
 E:\ProjectTamrin\DevCard\DevCard_Mvc\obj\Debug\net5.0\Razor\Views\Home\Components\Projects\_Projects.cshtml.g.cs
 E:\ProjectTamrin\DevCard\DevCard_Mvc\obj\Debug\net5.0\Razor\Views\Home\Components\Articles\_Articles.cshtml.g.cs
+E:\ProjectTamrin\DevCard\DevCard_Mvc\obj\Debug\net5.0\Razor\Views\Shared\Header.cshtml.g.cs
+E:\ProjectTamrin\DevCard\DevCard_Mvc\obj\Debug\net5.0\Razor\Views\Shared\Footer.cshtml.g.cs
