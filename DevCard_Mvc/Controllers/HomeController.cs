@@ -41,10 +41,17 @@ namespace DevCard_Mvc.Controllers
         */
 
         [HttpPost]
-        public JsonResult Contact(Contact form)
+        public IActionResult Contact(Contact model)
         {
-            Console.WriteLine(form.ToString());
-            return Json(Ok());
+            if (!ModelState.IsValid)
+            {
+                ViewBag.error = "اطلاعات وارد شده صحیح نیست. لطفا دوباره تلاش بکنید";
+                return View(model);
+            }
+
+            ViewBag.success = "پیغام شما با موفقیت ارسال شد. با تشکر";
+            return View();
+            //return RedirectToAction("Index");
         }
       
 
