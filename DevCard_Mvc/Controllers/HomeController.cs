@@ -20,9 +20,11 @@ namespace DevCard_Mvc.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult Contact()
         {
-            return View();
+            var model = new Contact();
+            return View(model);
         }
 
 
